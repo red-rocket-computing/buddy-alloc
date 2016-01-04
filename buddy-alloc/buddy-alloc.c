@@ -6,13 +6,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. 
  */
  
-#include <assert.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <limits.h>
-#include <string.h>
 #include <stdbool.h>
-
 #include <buddy-alloc.h>
 
 #define BIT_ARRAY_NUM_BITS (8 * sizeof(unsigned long int))
